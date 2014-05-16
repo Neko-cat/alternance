@@ -69,11 +69,19 @@ body {
 	}
 }
 #presentation {
+	width: 100%;
 	z-index: 100;
 	height: 1000px;
 	opacity: 0;
 	color: $kuler-white;
 	h3 {
 		color: $kuler-red;
+	}
+	.text, img {
+		padding: 1em;
+	}
+	.text {
+		width: 400px;
+		text-align: justify;
 	}
 }
