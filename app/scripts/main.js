@@ -1,1 +1,3 @@
-console.log('\'Allo \'Allo!');
+var skrollr = skrollr.init([
+		forceHeight = true
+	]);
