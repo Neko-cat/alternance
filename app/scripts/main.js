@@ -1,3 +1,1 @@
-var skrollr = skrollr.init([
-		forceHeight = true
-	]);
+var skrollr = skrollr.init();
