@@ -12,7 +12,7 @@ $kuler-blue      : #2980B9;
 
 
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: $kuler-white;
 }
 
@@ -93,17 +93,113 @@ body {
 	h2 {
 		position: relative;
 		text-align: center;
+		color: $kuler-red;
 	}
 	#competence-separator {
 		height: 800px;
 		width: 10px;
 		background-color: $kuler-white;
+		opacity: 0.7;
+		box-shadow: 2px 8px 10px black inset; 
 	}
 	#competence-point {
 		height: 10px;
 		width: 10px;
-		background-color: $kuler-red;
-		// border-radius: 50%;
+		background-color: $kuler-blue;
+	}
+	.competence-conteneur {
+		width: 30%;
+		height: 67%;
+		h3 {
+			text-align: center;
+			color: $kuler-blue;
+		}
+		.rond {
+			width: 60px;
+			height: 60px;
+			border-radius: 50%;
+			border: 2px solid $kuler-red;
+			display: inline-block;
+			margin: 10px;
+			opacity: 0.7;
+		}
+		.rond:hover {
+			opacity: 1;
+		}
+		.rond-conteneur {
+			width: 175px;
+			position: relative;
+			left: 35%;
+		}
+		.rond-conteneur-2 {
+			width: 350px;
+			position: relative;
+			left: 20%;
+		}	
+		.rond-position {
+			left: 43%;
+		}
+		.rond-position-2{
+			width: 500px;
+			left: 28%;
+		}
+		.bg1 {
+			background:url('../images/linux_logo.jpg');
+		}	
+		.bg2 {
+			background:url('../images/w_logo.jpg');
+		}	
+		.bg3 {
+			background:url('../images/mysql_logo.jpg');
+		}
+		.bg4 {
+			background:url('../images/mssql_logo.jpg');
+		}
+		.bg5 {
+			background:url('../images/php_logo.jpg');
+		}	
+		.bg6 {
+			background:url('../images/html_logo.jpg');
+		}	
+		.bg7 {
+			background:url('../images/css_logo.jpg');
+		}	
+		.bg8 {
+			background:url('../images/js_logo.jpg');
+		}
+		.bg9 {
+			background:url('../images/jquery.jpg');
+		}
+		.bg10 {
+			background:url('../images/java_logo.jpg');
+		}	
+		.bg11 {
+			background:url('../images/json_logo.jpg');
+		}	
+		.bg12 {
+			background:url('../images/xml_logo.jpg');
+		}
+		.bg13 {
+			background:url('../images/after_logo.jpg');
+		}
+		.bg14 {
+			background:url('../images/sonyvegas_logo.jpg');
+		}
+		.bg15 {
+			background:url('../images/mac_logo.jpg');
+		}
+		.bg16 {
+			background:url('../images/python_logo.jpg');
+		}
+		.bg17 {
+			background:url('../images/photoshop_logo.jpg');
+		}
+		.bg18 {
+			background:url('../images/illustrator_logo.png');
+		}
+		.bg19 {
+			background:url('../images/indd_logo.jpg');
+		}
 	}
 }
 #projet {
