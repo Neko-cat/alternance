@@ -208,20 +208,9 @@ body {
 #projet {
 	height: 100%;
 	width: 100%;
-	.projet-text {
-		width: 80%;
-		position: relative;
-		left: 10%;
-		background-color: $kuler-white;
-		padding: 20px;
-		border-radius: 10px;
-		h3 {
-			padding-left: 5%;
-			color:$kuler-red;
-		}
-		p{
-			color:$kuler-lightblue;
-		}
+	p {
+		color:$kuler-white;
+		font-size: 1.2em;
 	}
 }
 
