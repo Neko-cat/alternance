@@ -23,20 +23,22 @@ body {
 	padding: 0.2em 0;
 }
 
-#bg1 {
-	z-index: 50;
-	top: 0;
-	left: 0;
+#bg1, #bg2, #bg3 {
 	width: 100%;
 	height: 100%;
+}
+#bg1 {
+	z-index: 50;
 	background-image: url('../images/pattern.jpg');
 }
 
 #bg2 {
-	width: 100%;
-	height: 100%;
 	z-index:51;
 	background-image: url('../images/presentation_pattern.jpg');
+}
+#bg3 {
+	z-index: 52;
+	background-color: $kuler-red;
 }
 
 #lodr {
@@ -102,5 +104,24 @@ body {
 		width: 10px;
 		background-color: $kuler-red;
 		// border-radius: 50%;
+	}
+}
+#projet {
+	height: 100%;
+	width: 100%;
+	.projet-text {
+		width: 80%;
+		position: relative;
+		left: 10%;
+		background-color: $kuler-white;
+		padding: 20px;
+		border-radius: 10px;
+		h3 {
+			padding-left: 5%;
+			color:$kuler-red;
+		}
+		p{
+			color:$kuler-lightblue;
+		}
 	}
 }
