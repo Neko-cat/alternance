@@ -14,6 +14,7 @@ $kuler-blue      : #2980B9;
 body {
 	font-family: 'Open Sans', sans-serif;
 	color: $kuler-white;
+	min-width: 900px;
 }
 
 .browsehappy {
@@ -84,8 +85,9 @@ body {
 		padding: 1em;
 	}
 	.text {
-		width: 400px;
+		width: 30%;
 		text-align: justify;
+		vertical-align: bottom;
 	}
 	a {
 		color: $kuler-red;
@@ -227,6 +229,7 @@ body {
 	p {
 		color:$kuler-white;
 		font-size: 1.2em;
+/* 		width: 49%; */
 	}
 	strong {
 		color: $kuler-darkblue;
