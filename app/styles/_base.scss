@@ -15,6 +15,10 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	color: $kuler-white;
 }
+// jQuery class when body is to short !
+.tooshort {
+	width: 900px;
+}
 
 .browsehappy {
 	margin: 0.2em 0;

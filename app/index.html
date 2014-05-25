@@ -41,13 +41,13 @@
 		<div id="presentation" data-0="top:150%;opacity: 0;" data-500="top:10%;opacity:1" data-1500="top:10%" data-1700="top:-60%">
 			<div class="text" data-600="left:10%;bottom:75%;" data-1300="left:10%;bottom:60%;">
 				<h3>Florian 'Skullmasher' Ledru</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, iure harum ipsa quibusdam obcaecati debitis sapiente! Amet, perspiciatis, explicabo, voluptatum asperiores suscipit itaque vero nam repellat incidunt enim blanditiis cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, magni, laborum dolore ad nisi nemo corporis minima molestias aliquid ab dignissimos veniam sit ratione nobis delectus ipsa voluptatibus dolorem! Modi.</p>
+				<p>Geek, nerd, nolife, entrepreneur... Passioné par nature, à 22 ans c'est à partir des jeux vidéos que j'ai apris l'informatique. Du hardware au réseaux en passant par l'administration linux. C'est dans le web que je souhaite commencer mes études. </p>
 			</div>
 			<img src="images/skull.jpg" alt="Florian 'Skullmasher' Ledru" data-600="left:35%;top:-40%;opacity:0;" data-1300="left:35%;top:-3%;opacity:1;">
 			<img src="images/neko.jpg" alt="Mathilde 'Neko' Couvreur" data-600="left:52.5%;bottom:0%;opacity:0;" data-1300="left:52.5%;bottom:60%;opacity:1;">
 			<div class="text" data-600="left:67%;bottom:75%;" data-1300="left:67%;bottom:60%;">
 				<h3>Mathilde 'Neko' Couvreur</h3>
-				<p> Infographiste autodidacte depuis quelques années, je maîtrise avant tout les outils de créations graphique. J'ai découvert le monde passionnant du web il y a moins d'un an, en créant mon tout premier site web. Depuis lors, je n'aspire qu'à accroître mes connaissances dans ce domaine et ainsi pouvoir m'en servir dans toutes mes réalisations futures. Pour l'année prochaine, j'ai postulé à deux écoles pour une formation web en alternance : <a href="http://www.infa-formation.com/">l'INFA</a> et <a href="http://www.campusfonderiedelimage.org/formations/integrateur-de-medias-interactifs">le Campus de la Fonderie de l'Image</a>.</p>
+				<p>Infographiste autodidacte depuis quelques années, je maîtrise avant tout les outils de créations graphique. J'ai découvert le monde passionnant du web il y a moins d'un an, en créant mon tout premier site web. Depuis lors, je n'aspire qu'à accroître mes connaissances dans ce domaine et ainsi pouvoir m'en servir dans toutes mes réalisations futures. Pour l'année prochaine, j'ai postulé à deux écoles pour une formation web en alternance : <a href="http://www.infa-formation.com/">l'INFA</a> et <a href="http://www.campusfonderiedelimage.org/formations/integrateur-de-medias-interactifs">le Campus de la Fonderie de l'Image</a>.</p>
 			</div>
 		</div>
 		<div id="competence" data-1500="top:100%;" data-1700="top:3%;" data-4800="top:3%;transform:scale(1) rotate(0deg)" data-5000="transform:scale(0) rotate(720deg)">
@@ -142,13 +142,13 @@
 			<!-- Entreprise, Mail, Text area -->
 			<form action="formchecker.php" method="post" name="form" data-8800="opacity:0;" data-8900="opacity:0;" data-9000="opacity:1;">
 				<div>
-					<input type="text" name="entreprise" placeholder="Entreprise" />
+					<input type="text" name="entreprise" placeholder="Entreprise" maxlength="40" />
 				</div>
 				<div>
-					<input type="text" name="email" placeholder="Votre Email" />		
+					<input type="text" name="email" placeholder="Votre Email" maxlength="40" />		
 				</div>
 				<div>
-					<textarea name="message" placeholder="Tapez votre message ici "></textarea>
+					<textarea name="message" placeholder="Tapez votre message ici"></textarea>
 				</div>
 					<input type="hidden" name="token" value="<?php echo Token::generate(); ?>">
 					<input value="ENVOYER" type="submit"/>
