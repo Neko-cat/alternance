@@ -16,6 +16,10 @@ body {
 	color: $kuler-white;
 	min-width: 900px;
 }
+// jQuery class when body is to short !
+.tooshort {
+	width: 900px;
+}
 
 .browsehappy {
 	margin: 0.2em 0;
@@ -258,6 +262,7 @@ body {
 			margin-bottom: 20px; 
 		}
 		input[type="submit"] {
+			margin-top: 10px;
 			width: 422px;
 			border-radius: 10px;
 		}
