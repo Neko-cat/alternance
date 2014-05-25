@@ -1,0 +1,12 @@
+@media screen and (max-width: 1200px) {
+	#presentation .resize {
+		position: relative;
+		top: 50%;
+	}
+	#competence #competence-separator,  #competence #competence-point{
+		display: none;
+	}
+	#projet p {
+		line-height: 0.8em;
+	}
+}
